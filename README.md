@@ -41,7 +41,7 @@ References
 
 ### less package
 
-This package is based on the [less package](https://github.com/meteor/meteor/tree/devel/packages/less) from Meteor. However it does not cut down [less npm module]([less](https://www.npmjs.com/package/less) and it uses the function `less.render` instead of the combination of `less.Parser` and `toCSS` as suggested by [less usage documentation](http://lesscss.org/usage/#programmatic-usage).
+This package is based on the [less package](https://github.com/meteor/meteor/tree/devel/packages/less) from Meteor. However it does not cut down [less npm module](https://www.npmjs.com/package/less) and it uses the function `less.render` instead of the combination of `less.Parser` and `toCSS` as suggested by [less usage documentation](http://lesscss.org/usage/#programmatic-usage).
 
 ### lauricio:less-autoprefixer
 
