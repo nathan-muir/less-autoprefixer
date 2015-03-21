@@ -7,7 +7,6 @@ Tinytest.add("less - presence", function(test) {
 
   var p = div.querySelector('p');
   test.equal(getStyleProperty(p, 'border-left-style'), "dashed");
-
   // test @import
   test.equal(getStyleProperty(p, 'border-right-style'), "dotted");
   test.equal(getStyleProperty(p, 'border-bottom-style'), "double");

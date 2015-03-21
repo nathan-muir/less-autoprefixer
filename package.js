@@ -18,14 +18,9 @@ Package.registerBuildPlugin({
   }
 });
 
-Package.onUse(function(api) {
-  api.versionsFrom('1.0.4.1');
-  api.addFiles('less-autoprefixer.js');
-});
-
 Package.onTest(function(api) {
   api.use(['flemay:less-autoprefixer', 'test-helpers', 'tinytest', 'templating']);
   api.add_files(['test/less_tests.less', 'test/less_tests.js', 'test/less_tests.html',
-    'test/less_tests_empty.less'
+    'test/less_tests_empty.less', 'test/autoprefixer_tests.import.less'
   ], 'client');
 });

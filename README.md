@@ -34,7 +34,7 @@ How to test this package
 2. `$ mkdir test-less-autoprefixer/packages`
 3. `$ cd test-less-autoprefixer/packages`
 4. `$ git clone https://github.com/flemay/less-autoprefixer.git`
-5. `$ meteor test-packages`
+5. `$ meteor test-packages flemay:less-autoprefixer`
 
 References
 ----------
