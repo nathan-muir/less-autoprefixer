@@ -1,7 +1,7 @@
 Package.describe({
   name: 'flemay:less-autoprefixer',
   version: '1.0.0',
-  summary: 'This meteor package compiles your `.less` files into CSS, adds vendor prefixes to CSS rules and includes the results in the client CSS bundle.',
+  summary: 'The dynamic stylesheet language + Autoprefixer',
   git: 'https://github.com/flemay/less-autoprefixer',
   documentation: 'README.md'
 });
