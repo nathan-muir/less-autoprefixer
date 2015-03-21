@@ -24,8 +24,8 @@ Dependencies
 
 This package uses the following npm modules:
 
-- [less](https://www.npmjs.com/package/less)
-- [less-plugin-autoprefix](https://www.npmjs.com/package/less-plugin-autoprefix)
+- [less@2.4.0](https://www.npmjs.com/package/less)
+- [less-plugin-autoprefix@1.4.0](https://www.npmjs.com/package/less-plugin-autoprefix)
 
 How to test this package
 ------------------------
