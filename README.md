@@ -3,6 +3,8 @@ Less + Autoprefixer
 
 This meteor package compiles your `.less` files into CSS, adds vendor prefixes to CSS rules and includes the results in the client CSS bundle.
 
+> **Story** I was not able to compile [Semantic UI](http://semantic-ui.com/) with the package [`lauricio:less-autoprefixer`](https://atmospherejs.com/lauricio/less-autoprefixer) so I decided to start from fresh.
+
 Installation
 ------------
 
