@@ -1,6 +1,6 @@
 Package.describe({
   name: 'flemay:less-autoprefixer',
-  version: '1.0.0',
+  version: '1.0.1',
   summary: 'The dynamic stylesheet language + Autoprefixer',
   git: 'https://github.com/flemay/less-autoprefixer',
   documentation: 'README.md'
