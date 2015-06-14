@@ -1,6 +1,6 @@
 Package.describe({
   name: 'flemay:less-autoprefixer',
-  version: '1.0.1',
+  version: '1.0.2',
   summary: 'The dynamic stylesheet language + Autoprefixer',
   git: 'https://github.com/flemay/less-autoprefixer',
   documentation: 'README.md'
@@ -14,7 +14,7 @@ Package.registerBuildPlugin({
   ],
   npmDependencies: {
     "less": "2.4.0",
-    "less-plugin-autoprefix": "1.4.0"
+    "less-plugin-autoprefix": "1.4.2"
   }
 });
 
