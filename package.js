@@ -1,10 +1,10 @@
-var packageName = 'flemay:less-autoprefixer';
+var packageName = 'nathanmuir:less-autoprefixer';
 
 Package.describe({
   name: packageName,
-  version: '1.0.2',
+  version: '1.0.2-1',
   summary: 'The dynamic stylesheet language + Autoprefixer',
-  git: 'https://github.com/flemay/less-autoprefixer',
+  git: 'https://github.com/nathan-muir/less-autoprefixer',
   documentation: 'README.md'
 });
 
