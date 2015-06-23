@@ -1,5 +1,7 @@
+var packageName = 'flemay:less-autoprefixer';
+
 Package.describe({
-  name: 'flemay:less-autoprefixer',
+  name: packageName,
   version: '1.0.2',
   summary: 'The dynamic stylesheet language + Autoprefixer',
   git: 'https://github.com/flemay/less-autoprefixer',
@@ -19,7 +21,7 @@ Package.registerBuildPlugin({
 });
 
 Package.onTest(function(api) {
-  api.use(['flemay:less-autoprefixer', 'test-helpers', 'tinytest', 'templating']);
+  api.use([packageName, 'test-helpers', 'tinytest', 'templating']);
   api.add_files(['test/less_tests.less', 'test/less_tests.js', 'test/less_tests.html',
     'test/less_tests_empty.less', 'test/autoprefixer_tests.import.less'
   ], 'client');
