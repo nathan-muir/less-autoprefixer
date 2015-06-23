@@ -15,7 +15,7 @@ Package.registerBuildPlugin({
     'lib/plugin/compile-less.js'
   ],
   npmDependencies: {
-    "less": "2.4.0",
+    "less": "2.5.1",
     "less-plugin-autoprefix": "1.4.2"
   }
 });
