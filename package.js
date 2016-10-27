@@ -2,7 +2,7 @@ var packageName = 'nathanmuir:less-autoprefixer';
 
 Package.describe({
   name: packageName,
-  version: '1.2.0-rc.0',
+  version: '1.2.0',
   summary: 'The dynamic stylesheet language + Autoprefixer',
   git: 'https://github.com/nathan-muir/less-autoprefixer',
   documentation: 'README.md'
@@ -10,7 +10,7 @@ Package.describe({
 
 Package.registerBuildPlugin({
   name: "compileLessAddAutoprefixer",
-  use: ['caching-compiler@1.0.0-rc.0', 'ecmascript@0.1.3-rc.3', 'underscore@1.0.4-rc.0'],
+  use: ['caching-compiler@1.0.0', 'ecmascript@0.1.3', 'underscore@1.0.4'],
   sources: [
     'plugin/compile-less.js'
   ],
@@ -22,12 +22,12 @@ Package.registerBuildPlugin({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.2-rc.15');
+  api.versionsFrom('METEOR@1.2');
   api.use('isobuild:compiler-plugin@1.0.0');
 });
 
 Package.onTest(function(api) {
-  api.versionsFrom('METEOR@1.2-rc.15');
+  api.versionsFrom('METEOR@1.2');
   api.use([packageName, 'test-helpers', 'tinytest', 'templating']);
   api.add_files(['test/less_tests.less', 'test/less_tests.js', 'test/less_tests.html',
     'test/less_tests_empty.less', 'test/autoprefixer_tests.import.less'
